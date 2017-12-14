@@ -22,4 +22,5 @@
     <string name="WeightOfSteelStripCalculator">Вес полоси в кг.</string>
     <string name="WeightOfHexahedronCalculator">Вес шестигранника в кг.</string>
     <string name="btnResultCalc">Результат</string>
+
 </resources>
