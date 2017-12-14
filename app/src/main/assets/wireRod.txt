@@ -1,0 +1,11 @@
+{"weight":0.1541,"radius":5.0,"metersInTone":6488.0}
+{"weight":0.1865,"radius":5.5,"metersInTone":5362.0}
+{"weight":0.222,"radius":6.0,"metersInTone":4505.0}
+{"weight":0.2447,"radius":6.3,"metersInTone":4087.0}
+{"weight":0.2605,"radius":6.5,"metersInTone":3839.0}
+{"weight":0.3021,"radius":7.0,"metersInTone":3310.0}
+{"weight":0.3946,"radius":8.0,"metersInTone":2534.0}
+{"weight":0.4994,"radius":9.0,"metersInTone":2002.0}
+{"weight":0.6165,"radius":10.0,"metersInTone":1622.0}
+{"weight":0.746,"radius":11.0,"metersInTone":1340.0}
+{"weight":0.8878,"radius":12.0,"metersInTone":1126.0}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="btnCatalog">Каталог</string>
+    <string name="btnCalculator">Калькулятор</string>
+    <string name="languageTitle">Выбрать Язык</string>
+    <string name="title_activity_calculator">Steel Calculator</string>
+    <string name="title_activity_main">Steel Calculator</string>
+    <string name="app_name">Калькулятор металопроката</string>
+    <string name="MainListNameEng">Список металопроката</string>
+    <string name="CatalogueEng">Каталог</string>
+    <string name="Weight">Вес</string>
+    <string name="Width">Ширина</string>
+    <string name="Height">Высота</string>
+    <string name="Thickness">Толщина</string>
+    <string name="Radius">Радиус</string>
+    <string name="Diameter">Диаметр</string>
+    <string name="WeightOfMeter">Вес</string>
+    <string name="MetersInTone">Метров в тоне</string>
+    <string name="WeightOfListCalculator">Вес листа в кг.</string>
+    <string name="WeightOfCircleCalculator">Вес круга в кг.</string>
+    <string name="WeightOfTubeCalculator">Вес трубы в кг.</string>
+    <string name="WeightOfSquareBarsCalculator">Вес квадрата в кг.</string>
+    <string name="WeightOfSteelStripCalculator">Вес полоси в кг.</string>
+    <string name="WeightOfHexahedronCalculator">Вес шестигранника в кг.</string>
+    <string name="btnResultCalc">Результат</string>
+</resources>

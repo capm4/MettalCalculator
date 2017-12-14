@@ -1,0 +1,65 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Green App Theme -->
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- AppCompat Attributes -->
+        <item name="colorPrimary">@color/material_blue_grey__100</item>
+        <item name="colorPrimaryDark">@color/material_blue_grey__200</item>
+        <item name="colorAccent">@color/material_blue_grey__300</item>
+
+        <!-- AppCompat Control Attributes -->
+        <!-- Other control states (not in this example)
+        <item name="colorButtonNormal">@color/material_green_500</item>
+        <item name="colorControlNormal">@color/material_green_500</item>
+        <item name="colorControlActivated">@color/material_green_500</item>
+        <item name="colorControlHighlight">@color/selector_green_pressed</item>
+        -->
+
+        <!-- AppCompat Dialog Attributes -->
+        <item name="dialogTheme">@style/AppTheme.Dialog.Green</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Green</item>
+    </style>
+
+    <!-- Green Dialog Theme -->
+    <style name="AppTheme.Dialog.Green" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/material_blue_grey__100</item>
+        <item name="colorPrimaryDark">@color/material_blue_grey__200</item>
+        <item name="colorAccent">@color/material_blue_grey__300</item>
+    </style>
+
+    <!-- Green Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Green" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/material_blue_grey__100</item>
+        <item name="colorPrimaryDark">@color/material_blue_grey__200</item>
+        <item name="colorAccent">@color/material_blue_grey__300</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        ...
+        <item name="spinnerStyle">@style/MySpinner</item>
+    </style>
+
+    <!-- Base application theme (DARK). -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        ...
+        <item name="spinnerStyle">@style/MySpinner.Dark</item>
+    </style>
+
+    <style name="MySpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="MySpinner.Dark" parent="MySpinner">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+</resources>

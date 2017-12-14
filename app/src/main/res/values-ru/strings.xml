@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор металопроката</string>
+    <string name="CatalogueEng">Каталог</string>
+    <string name="Height">Высота</string>
+    <string name="MainListNameEng">Список металопроката</string>
+    <string name="MetersInTone">Метров в тоне</string>
+    <string name="Radius">Радиус</string>
+    <string name="Thickness">Толщина</string>
+    <string name="Weight">Вес</string>
+    <string name="WeightOfListCalculator">Вес листа в кг.</string>
+    <string name="WeightOfMeter">Вес</string>
+    <string name="Width">Ширина</string>
+    <string name="title_activity_calculator">Калькулятор металопроката</string>
+    <string name="title_activity_main">Калькулятор металлопроката</string>
+    <string name="Diameter">Диаметр</string>
+    <string name="btnCalculator">Калькулятор</string>
+    <string name="btnCatalog">Каталог</string>
+    <string name="languageTitle">Выбрать Язык</string>
+    <string name="btnResultCalc">Результат</string>
+    <string name="WeightOfCircleCalculator">Вес круга в кг.</string>
+    <string name="WeightOfTubeCalculator">Вес трубы в кг.</string>
+    <string name="WeightOfSquareBarsCalculator">Вес квадрата в кг.</string>
+    <string name="WeightOfHexahedronCalculator">Вес шестигранника в кг.</string>
+    <string name="WeightOfSteelStripCalculator">Вес полосы в кг.</string>
+
+    <string-array name="language_array_ru">
+        <item>Английский</item>
+        <item>Русcкий</item>
+    </string-array>
+    <string-array name="language_array_en">
+        <item>English</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="main_list_ru">
+        <item>Неравнополочные Уголки</item>
+        <item>Равнополочные Уголки</item>
+        <item>Арматура</item>
+        <item>Проволка</item>
+        <item>Двутавр</item>
+        <item>Швеллер</item>
+        <item>Холоднокатаный лист</item>
+        <item>Гарячекатаный лист</item>
+        <item>Труба профильна квадратная</item>
+        <item>Труба профильна прямокутна</item>
+        <item>Труба круглая</item>
+        <item>Квадрат</item>
+        <item>Круг</item>
+        <item>Полоса</item>
+        <item>Шестигранник</item>
+    </string-array>
+    <string-array name="main_list_en">
+        <item>Unequal Angels</item>
+        <item>Equilateral angele</item>
+        <item>Rebar</item>
+        <item>Wire rod</item>
+        <item>Bead</item>
+        <item>Channel</item>
+        <item>Cold rolled steel</item>
+        <item>Hot rolled steel</item>
+        <item>Square profile tube</item>
+        <item>Rectangular profile tube</item>
+        <item>Round tube</item>
+        <item>Square bars</item>
+        <item>Steel circle</item>
+        <item>Steel strip</item>
+        <item>Hexahedron</item>
+    </string-array>
+    <string-array name="calculator_list_ru">
+        <item>Круги</item>
+        <item>Листы</item>
+        <item>Труба квадратная</item>
+        <item>Труба прямокутна</item>
+        <item>Труба круглая</item>
+        <item>Квадрат</item>
+        <item>Полоса</item>
+        <item>Шестигранник</item>
+    </string-array>
+    <string-array name="calculator_list_en">
+        <item>Steel circle"</item>
+        <item>Rolled steel</item>
+        <item>Square profile tube</item>
+        <item>Rectangular profile tube</item>
+        <item>Round tube</item>
+        <item>Square bars</item>
+        <item>Steel strip</item>
+        <item>Hexahedron</item>
+    </string-array>
+</resources>

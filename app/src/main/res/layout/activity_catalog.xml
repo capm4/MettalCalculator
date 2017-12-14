@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:elevation="7dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleOfMainList"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/MainListNameEng"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+
+            <ListView
+                android:id="@+id/mailList"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"></ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:elevation="1dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/CatalogueEng"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ExpandableListView
+                android:id="@+id/listExpSimplAdapter"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+
+            </ExpandableListView>
+
+            <ListView
+                android:id="@+id/listSimplAdapter"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ListView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:background="@android:color/background_light"
+        android:elevation="1dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageOfSteel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:elevation="1dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/elemFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemSixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/elemSeventh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/elemEighth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
